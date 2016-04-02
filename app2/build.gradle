@@ -21,11 +21,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-<<<<<<< HEAD
     testCompile 'junit:junit:4.12'
-=======
-//    testCompile 'junit:junit:4.12'
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
 }

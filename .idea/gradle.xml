@@ -10,6 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
+=======
+            <option value="$PROJECT_DIR$/app2" />
+>>>>>>> cd35fa695c02918beb76bd074f0545b519037265
           </set>
         </option>
       </GradleProjectSettings>

@@ -5,10 +5,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-<<<<<<< HEAD
-=======
-import android.util.Log;
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,11 +20,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-<<<<<<< HEAD
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-=======
-        final FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
         fab.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -36,16 +28,9 @@ public class MainActivity extends AppCompatActivity
             {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-<<<<<<< HEAD
+                System.out.println("view = [" + view + "] view out ");
             }
         });
-        System.out.println("MainActivity.onCreate");
-=======
-                System.out.println("MainActivity.onClick out i1e " + fab);
-
-            }
-        });
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
     }
 
     @Override
@@ -69,22 +54,7 @@ public class MainActivity extends AppCompatActivity
         {
             return true;
         }
-<<<<<<< HEAD
 
         return super.onOptionsItemSelected(item);
     }
-=======
-        geta();
-        return super.onOptionsItemSelected(item);
-    }
-
-    /**
-     * @author songli
-     * create at 2016/4/2 0:17
-     */
-    private void geta()
-    {
-
-    }
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
 }

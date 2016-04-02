@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <manifest package="com.example.lisong.myapplication"
           xmlns:android="http://schemas.android.com/apk/res/android">
-=======
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lisong.myapplication">
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
 
     <application
         android:allowBackup="true"
@@ -18,15 +13,9 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-<<<<<<< HEAD
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
-=======
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
->>>>>>> cd35fa695c02918beb76bd074f0545b519037265
             </intent-filter>
         </activity>
     </application>
