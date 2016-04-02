@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
-        System.out.println("MainActivity.onCreate ok");
+        System.out.println("MainActivity.onCreate ok OOO");
     }
 
     @Override
